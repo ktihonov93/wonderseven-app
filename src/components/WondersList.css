@@ -1,0 +1,8 @@
+.WondersList {
+    display: flex;
+}
+
+.WondersList div {
+    flex-wrap: wrap;
+    justify-content: center;
+}

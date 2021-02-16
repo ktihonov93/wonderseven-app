@@ -1,7 +1,12 @@
 .image {
     width: 50%;
-}
-
- img {
-    max-width: 100%;
-}
+  }
+  
+  .image img {
+    width: 100%;
+  }
+  
+  .WonderCard {
+    width: 200px;
+  }
+  

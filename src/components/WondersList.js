@@ -1,10 +1,10 @@
 import WonderCard from './WonderCard';
 import './WondersList.css';
 
-const WondersList = ({data}) => {
+const WondersList = ({data, handleClick}) => {
     return (
         <div className="WondersList">
-            {data.map(item => <WonderCard key={item.id} {...item} />)}
+            {data.map(item => <WonderCard handleClick={handleClick} key={item.id} {...item} />)}
         </div>
     )
 }
